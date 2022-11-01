@@ -9,7 +9,7 @@ class ButtonFirstLevel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.blueGrey[400],
-      child: ButtonWidget(onTap: onPressed),
+      child: ButtonWidget(onPressed: onPressed),
     );
   }
 }
